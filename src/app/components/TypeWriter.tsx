@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 const roles = [
     "..Kashan Khan.",
   "A Full-Stack Developer..",
-  "..& Electrical Engineering Student.",
+  "..& in Electrical Engineering.",
 ];
 
 export default function Typewriter() {
@@ -42,7 +42,7 @@ export default function Typewriter() {
   }, [charIndex, deleting, roleIndex]);
 
   return (
-    <span className="text-white ">
+    <span className="text-white font-bold">
       {text}
       <span className="animate-pulse text-lime-400">|</span>
     </span>
