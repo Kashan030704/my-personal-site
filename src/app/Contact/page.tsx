@@ -12,10 +12,7 @@ export default function Page(){
                     <HeaderButtons page_number="5"/>
                 </Header>
             </div>
-            <div className="flex justify-center p-10 bg-black opacity-25 w-346.2 h-169 ">
-                <ContactModal/>
-            </div>
-
+            <div className="flex justify-center"><ContactModal/></div>
         </div>
     );
 }
