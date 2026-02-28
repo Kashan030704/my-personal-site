@@ -16,7 +16,7 @@ export default function Home() {
         alt="Kashan Khan"
         width={400}
         height={80}
-        className="rounded-full shadow-lg mt-3 mr-8 border border-3 border-white"
+        className="rounded-full shadow-lg mt-30 mr-8 border border-3 border-white"
       />
       </div>
     </>

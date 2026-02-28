@@ -2,7 +2,7 @@ import TypeWriter from "./TypeWriter";
 
 export default function Welcome() {
   return (
-    <div className=" text-4xl ml-30 mt-20">
+    <div className=" text-4xl ml-30 mt-30">
         <p className="font-bold text-3xl mt-12 mb-8">
           Hello,<span className="text-green-300"> I am.. </span>
         </p>
