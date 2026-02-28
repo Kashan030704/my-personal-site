@@ -18,7 +18,7 @@ export default function HeaderButtons({page_number}:any){
 
         return (
         
-        <div className="flex gap-8 font-bold p-6 text-2xl text-white ml-180 mt-3">
+        <div className="flex gap-8 font-bold p-6 text-2xl text-white ml-180 mt-3 fixed">
             <Link href=".">
                 <button className={`h-0.5 rounded-lg${page[0]}bg-green-300 text-base`}> About</button>
             </Link>
