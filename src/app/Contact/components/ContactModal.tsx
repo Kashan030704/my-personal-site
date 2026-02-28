@@ -46,7 +46,7 @@ export default function ContactModal() {
     };
 
     return (
-        <div className="mx-auto mt-8 w-full max-w-2xl bg-white border border-black/20 rounded-lg shadow-xl overflow-hidden">
+        <div className="mx-auto mt-38 w-full max-w-2xl bg-white border border-black/20 rounded-lg shadow-xl overflow-hidden">
             {/* header bar */}
             <div className="bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-300 px-6 py-4 border-b border-black/10">
                 <h2 className="text-xl font-bold text-black text-center">Get in Touch</h2>

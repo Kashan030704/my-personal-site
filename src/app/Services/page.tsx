@@ -12,10 +12,12 @@ export default function Page(){
             </Header>
         </div>
         <div>
-            <ServiceBase/>
-        </div>
-        <div className="text-black font-black flex justify-center rounded-lg ml-46 mt-5 h-55 w-255 bg-white border shadow-sm shadow-black">
-            Preview: <Carousel/> 
+            <div>
+                <ServiceBase/>
+            </div>
+            <div className="text-black font-black flex justify-center rounded-lg ml-46 mt-5 h-55 w-255 bg-white border shadow-sm shadow-black">
+                Preview: <Carousel/>
+            </div>
         </div>
 
         </div>
