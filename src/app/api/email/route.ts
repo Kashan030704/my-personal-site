@@ -25,6 +25,7 @@ export async function POST(request: Request) {
 
     const { data, error } = await resend.emails.send({
       from: fromAddress,
+      replyTo: email,
       to: ['kashk2127@gmail.com'],
       subject,
       react: EmailTemplate({
